@@ -2,7 +2,7 @@
 
 Team Members
 
-Anikesh Haran - anikesh2@illinois.edu /n
+Anikesh Haran - anikesh2@illinois.edu <br>
 Changhua Zhan - zhan36@illinois.edu
 Satvik Kulkarni - satvikk2@illinois.edu
 
