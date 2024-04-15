@@ -14,7 +14,7 @@ The link to the paper is here: [https://pubmed.ncbi.nlm.nih.gov/38030638/].
 
 ## Notebooks
 
-The Project Draft submission can be found in the [DL4H_Team_88_Draft.ipynb]() notebook.
+The Project Draft submission can be found in the [DL4H_Team_88_Draft.ipynb](https://github.com/satvikk2/CS598_DLH_Team88/blob/main/DL4H_Team_88_Draft.ipynb) notebook.
 
 ## How to run
 
@@ -24,11 +24,12 @@ The code can be run locally, or in Google Colab. Complete instructions are conta
 
 The fastest way to run a demo version of the code is in Google Colab.
 
-1. Open the [DL4H_Team_88_Draft.ipynb]() notebook.
+1. Open the [DL4H_Team_88_Draft.ipynb](https://github.com/satvikk2/CS598_DLH_Team88/blob/main/DL4H_Team_88_Draft.ipynb) notebook.
 2. Click on "Open in Colab" in the top left.
-3. Upload all the .pkl files from /data/PKL to google colab. keep it in parallel with the python script. 
-4. Set the runtime type to "CPU". 
-5. In the Runtime menu, click on "Run all".
+3. Download data.zip and unzip it.
+4. Upload all the .pkl files from /data/PKL to google colab. keep it in parallel with the python script. Notebook expect the .pkl files directly. do not put them in any folder.
+5. Set the runtime type to "CPU". 
+6. In the Runtime menu, click on "Run all".
 
 ## References
 1. Yang, Z., Mitra, A., Liu, W. et al. TransformEHR: transformer-based encoder-decoder generative model to enhance prediction of disease outcomes using electronic health records. Nat Commun 14, 7857 (2023). https://doi.org/10.1038/s41467-023-43715-z
