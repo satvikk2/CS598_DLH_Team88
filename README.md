@@ -14,26 +14,23 @@ The link to the paper is here: [https://pubmed.ncbi.nlm.nih.gov/38030638/].
 
 ## Notebooks
 
-The Project Draft submission can be found in the [DL4H_Team_88_Draft.ipynb](https://github.com/satvikk2/CS598_DLH_Team88/blob/main/DL4H_Team_88_Draft.ipynb) notebook.
+The Project submission can be found in the [DL4H_Team_88_Final.ipynb]() notebook.
 
 ## How to run
 
 The code can be run locally, or in Google Colab. Complete instructions are contained inside of the notebook.
 
-### Project Draft Quickstart
+### Project Quickstart
 
-The fastest way to run a demo version of the code is in Google Colab.
+Note - Pass sample_size [%] as argument to the python script
 
-1. Open the [DL4H_Team_88_Draft.ipynb](https://github.com/satvikk2/CS598_DLH_Team88/blob/main/DL4H_Team_88_Draft.ipynb) notebook.
-2. Click on "Open in Colab" in the top left.
-3. Download data.zip and unzip it.
-4. Upload all the .pkl files from /data/PKL to google colab. keep it in parallel with the python script. Notebook expect the .pkl files directly. do not put them in any folder.
-5. Set the runtime type to "CPU". 
-6. In the Runtime menu, click on "Run all".
+Let's say, we want to run the model on 20% of data. Argument will be 0.2
+
+Command - python3 train_ehr.py 0.2
+
 
 ## References
 1. Yang, Z., Mitra, A., Liu, W. et al. TransformEHR: transformer-based encoder-decoder generative model to enhance prediction of disease outcomes using electronic health records. Nat Commun 14, 7857 (2023). https://doi.org/10.1038/s41467-023-43715-z
 2. Vaswani, A. et al. Attention is All you Need. in Advances in Neural Information Processing Systems 30 (eds. Guyon, I. et al.) 5998–6008 (Curran Associates, Inc., 2017).https://arxiv.org/abs/1706.03762
 3. Rasmy, L., Xiang, Y., Xie, Z. et al. Med-BERT: pretrained contextualized embeddings on large-scale structured electronic health records for disease prediction. npj Digit. Med. 4, 86 (2021). https://doi.org/10.1038/s41746-021-00455-y
 4. Li, Y., Rao, S., Solares, J.R.A. et al. BEHRT: Transformer for Electronic Health Records. Sci Rep 10, 7155 (2020). https://doi.org/10.1038/s41598-020-62922-y
- 
